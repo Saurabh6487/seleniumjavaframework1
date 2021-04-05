@@ -1,0 +1,9 @@
+<suite name="Suite1">
+  <test thread-count="5" name="Test1 ">
+    <classes>
+      <class name="test.testTestng"/>
+      <class name="test.ExtentReportwithtestng"/>
+    </classes>
+  </test> 
+</suite> 
+ 

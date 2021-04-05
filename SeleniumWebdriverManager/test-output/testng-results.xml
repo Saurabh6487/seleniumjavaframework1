@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-04T02:35:42 IST" name="Suite1" finished-at="2021-04-04T02:35:42 IST" duration-ms="72">
+    <groups>
+      <group name="regression">
+        <method signature="TestNgGroupsdemo.test3()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test3" class="test.TestNgGroupsdemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNgGroupsdemo.test2()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test2" class="test.TestNgGroupsdemo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNgGroupsdemo.test1()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test1" class="test.TestNgGroupsdemo"/>
+        <method signature="TestNgGroupsdemo.test2()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test2" class="test.TestNgGroupsdemo"/>
+        <method signature="TestNgGroupsdemo.test3()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test3" class="test.TestNgGroupsdemo"/>
+      </group> <!-- sanity -->
+      <group name="AllClassTests">
+        <method signature="TestNgGroupsdemo.test1()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test1" class="test.TestNgGroupsdemo"/>
+        <method signature="TestNgGroupsdemo.test2()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test2" class="test.TestNgGroupsdemo"/>
+        <method signature="TestNgGroupsdemo.test3()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test3" class="test.TestNgGroupsdemo"/>
+        <method signature="TestNgGroupsdemo.test4()[pri:0, instance:test.TestNgGroupsdemo@6572421]" name="test4" class="test.TestNgGroupsdemo"/>
+      </group> <!-- AllClassTests -->
+    </groups>
+    <test started-at="2021-04-04T02:35:42 IST" name="Test1" finished-at="2021-04-04T02:35:42 IST" duration-ms="72">
+      <class name="test.TestNgGroupsdemo">
+        <test-method signature="test1()[pri:0, instance:test.TestNgGroupsdemo@6572421]" started-at="2021-04-04T02:35:42 IST" name="test1" finished-at="2021-04-04T02:35:42 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test.TestNgGroupsdemo@6572421]" started-at="2021-04-04T02:35:42 IST" name="test2" finished-at="2021-04-04T02:35:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:test.TestNgGroupsdemo@6572421]" started-at="2021-04-04T02:35:42 IST" name="test3" finished-at="2021-04-04T02:35:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:test.TestNgGroupsdemo@6572421]" started-at="2021-04-04T02:35:42 IST" name="test4" finished-at="2021-04-04T02:35:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test.TestNgGroupsdemo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
